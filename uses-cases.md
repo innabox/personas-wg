@@ -5,10 +5,10 @@ status at 2025-04, v1
 ### Purchaser
 - Purchase Cluster Access:
   The Purchaser logs into the cloud provider's portal, selects a cluster template, chooses a duration (e.g., 1 month), and clicks "Purchase." The system provisions access to an existing OpenShift cluster.
-- Automate Cluster Scaling:  
+- Automate Cluster Scaling:
   An advanced Purchaser uses the Fulfillment API to automatically increase the number of worker nodes when their workloads require more resources, without manual intervention.
 ### Cluster Admin
-- Prepare Cluster for Users: 
+- Prepare Cluster for Users:
   After the Purchaser obtains cluster access, the Cluster Admin logs into OpenShift, creates user namespaces, installs GPU drivers via OperatorHub, and ensures quotas are set for project isolation.
 ### Cluster User
 - Run AI Workloads:
